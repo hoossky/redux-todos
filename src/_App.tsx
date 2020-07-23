@@ -8,7 +8,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import "bootstrap-css-only/css/bootstrap.min.css";
 import "mdbreact/dist/css/mdb.css";
 
-const App = () => {
+const _App = () => {
   return <>
       <Provider store = {store}>
         <TodoInput/><br/><TodoList/>
@@ -16,4 +16,4 @@ const App = () => {
       </>
 
 }
-export default App;
+export default _App;
